@@ -2,9 +2,15 @@
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
+# Links: 
+
+* Page that goes directly to website: https://hancc1006.github.io/HW2.io/
+
 * index.html page: https://github.com/hancc1006/HW2.io/blob/master/about%20page.PNG
 * portfolio.html page:https://github.com/hancc1006/HW2.io/blob/master/Portfolio%20page.PNG
 * contact.html page:https://github.com/hancc1006/HW2.io/blob/master/Contact%20page.PNG
+
+
 ## Directions
 
 First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
