@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href=style.css>
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Crystal Han</a>
+          <ul class="navbar-nav mr-auto my-2 my-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <div class="card" style="width:60rem;">
+                    <div class="card-body">
+                        <h2>Contact</h2>
+                        <form>
+                            <div class="card-body">
+                                <label for="inputName">Name</label>
+                                <br>
+                                <textarea
+                                  readonly
+                                  id="name"
+                                  placeholder="Please enter your name."
+                                  style="width:50rem;"
+                                ></textarea>
+                            </div>
+                            <div class="card-body">
+                                <label for="inputEmail">Email</label>
+                                <br>
+                                <textarea
+                                  readonly
+                                  id="email"
+                                  placeholder="Please enter your email."
+                                  style="width:50rem;"
+                                ></textarea>
+                            </div>
+                            <div class="card-body">
+                                <label for="inputMessage">Message</label>
+                                <br>
+                                <textarea
+                                  readonly
+                                  id="message"
+                                  placeholder="Please enter your message."
+                                  aria-label="Generated Message"
+                                  style="width:50rem;"
+                                ></textarea>
+                            </div>
+                            <form method="post" action="mailto:hancc1006@gmail.com" >
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+
+        </div>
+
+        
+        
+    </div>
+  </body>
+</html>
