@@ -1,4 +1,7 @@
 let tx = document.querySelector("#texts");
+let email1="";
+let name1="";
+let message1="";
 
 
 $(document).ready(function(){
@@ -20,7 +23,15 @@ $(document).ready(function(){
     $('#index-title').text("About me");
     $('#index-text').text("My favorite hobbies are skiing, swimming, reading, and learning new things. I listen to a variety of music and have joy in watching adventure, sci-fi, and comedy movies.");
     $('#submit').on('click',function(){
+        email1 = $('#email').value;
+        name1 = $('#name').value;
+        message1 = $('#message').value;
+        
 
+        
     });
-
+    console.log(name1);
+    console.log(email1);
+    console.log(message1);
+    
 });
