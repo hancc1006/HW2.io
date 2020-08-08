@@ -12,8 +12,15 @@ $(document).ready(function(){
     $('#title3').text('Weather Forecast');
     $('#title4').text('Recipe Collaboration');
 
-    $("img1").attr("src","./Assets/PWgen.PNG");
-    $("img2").attr("src","./Assets/CodeQuiz.PNG");
-    $("img3").attr("src","./Assets/WeatherForecast.PNG");
-    $("img4").attr("src","./Assets/Collaborative.PNG");
+    $("#img1").attr("src","./Assets/PWgen.PNG");
+    $("#img2").attr("src","./Assets/CodeQuiz.PNG");
+    $("#img3").attr("src","./Assets/WeatherForecast.PNG");
+    $("#img4").attr("src","./Assets/Collaborative.PNG");
+
+    $('#index-title').text("About me");
+    $('#index-text').text("My favorite hobbies are skiing, swimming, reading, and learning new things. I listen to a variety of music and have joy in watching adventure, sci-fi, and comedy movies.");
+    $('#submit').on('click',function(){
+
+    });
+
 });
